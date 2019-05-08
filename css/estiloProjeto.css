@@ -2,6 +2,14 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+body{
+		background-image:url('../imagem/imagemBackGround.jpg');
+        background-position:center top;
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-attachment:fixed;
+}
 #header{
 	background-color: gray;
 	height: 200px;
@@ -28,6 +36,10 @@
 	margin: 60px;
 	margin-left: 0px;
 
+}
+.textImg{
+	position: absolute;
+	bottom: 10px;
 }
 #buttonMenu{
 	
@@ -77,3 +89,4 @@ width: 50px;
 height: 50px;
 }
 
+	
