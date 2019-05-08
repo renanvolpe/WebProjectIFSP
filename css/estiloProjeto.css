@@ -5,6 +5,7 @@
 #header{
 	background-color: gray;
 	height: 200px;
+	border:1px solid black;
 
 }
 .logo{
@@ -33,3 +34,46 @@
 
 	margin: 10px;
 }
+
+.headerFooter{
+	background-color: black;
+	color: white;
+}
+
+
+.footer{
+
+	position: absolute;
+	width: 100%;
+	background-color: gray;
+
+
+}
+.footer p{
+	border:1px black solid;
+	text-align: center;
+}
+
+.footerApres{
+	text-align: right;
+	float: right;
+	
+	width: 50%;
+}
+
+.footerApres img{
+width: 50px;
+height: 50px;
+}
+.redesSociais{
+	width: 50%;
+	float: left;
+	
+}
+
+
+.redesSociais img{
+width: 50px;
+height: 50px;
+}
+
