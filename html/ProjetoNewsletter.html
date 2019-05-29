@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto Web</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="../css/estiloNewsletter.css">
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".envelope").click(funtion(){
+				$(".overlay").toggleClass("active");
+			})
+		})
+
+		$(document).ready(function(){
+			$(".close").click(funtion(){
+				$(".overlay").toggleClass("active");
+			})
+		})
+	</script>
+
+</head>
+
+<body>
+	<div class="envelope">
+		<i>
+			icone
+		</i>
+		
+	</div>
+	<div class="overlay">
+		<div class="newsLetter">
+
+			<div class="close">
+				x
+			</div>
+			
+			<div class="icon">
+				 ICON 
+			</div>
+			
+			<h1> newsletter</h1>
+			<p> sdkanjdashjdajdjasdsasn</p>
+			
+			<div class="subscribe-form">
+				<form>
+					<input type="text" name="" placeholder="entra com seu email">
+					<input type="submit" name="" value="Subscribe">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
