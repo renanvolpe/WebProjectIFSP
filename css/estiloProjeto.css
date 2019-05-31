@@ -9,6 +9,7 @@ body{
         background-repeat:no-repeat;
         background-size:100%;
         background-attachment:fixed;
+
 }
 #header{
 	background-color: gray;
@@ -41,7 +42,7 @@ body{
 border:2px solid black;
 }
 .textImg{
-	position: absolute;
+	position: relative;
 	bottom: 40px;
 }
 #buttonMenu{
@@ -58,7 +59,7 @@ border:2px solid black;
 
 .footer{
 
-	position: absolute;
+	height: 300px;
 	width: 100%;
 	background-color: gray;
 
@@ -73,7 +74,7 @@ border:2px solid black;
 	text-align: right;
 	float: right;
 	
-	width: 50%;
+	
 }
 
 .footerApres img{
@@ -94,3 +95,58 @@ height: 50px;
 
 
 	
+#teste{
+	
+	
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+
+}
+
+.subscribe-form{
+	position: relative;
+	margin-top: 40px;
+}
+.modal-content{
+	background: gray;
+}
+.subscribe-form input[type="text"]{
+	color: white;
+	width: 100%;
+	height: 60px;
+	border-radius: 60px;
+	border: none;
+	outline: none;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 24px;
+	background:black;
+	
+}
+.subscribe-form input[type="text"]::placeholder{
+	color: white;/*testando*/
+}
+
+.subscribe-form input[type="submit"]{
+text-align: center;
+	background:#00bcd4; 
+	color: #fff;
+	width: 150px;
+	height: 60px;
+	border-radius: 60px;
+	border: none;
+	outline: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: 300;
+	cursor: pointer;
+	transition: .5s;
+	font-size: 20px;
+
+}
+
+.subscribe-form input[type="submit"]:hover{
+	background: #e91e63;
+}
