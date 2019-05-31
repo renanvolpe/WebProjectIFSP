@@ -1,0 +1,43 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.header{
+	width: 100%;
+	height: 1000px;
+	background-image:url('../imagem/imagemBackGround.jpg');
+ 	background-size: cover;
+
+}
+
+.navbar{
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+	top: 0px;
+	text-align: center;
+	transition: .5s;
+}
+.navbar ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 50px;
+	color: black;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius:10px;
+	transition: .5s; 
+}
+
+.navbar ul li:hover{
+	background: orange;
+}
+
+.box{
+	width: 80%;
+	height: 2000px;
+	background: green;
+	margin: 20px auto;
+}

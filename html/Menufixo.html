@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto Web</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="../css/estiloMenufixo.css">
+
+	<script type="text/javascript" src="../jcript/scriptProjeto.js"></script>
+
+
+
+</head>
+<body>
+	<div class="header">
+		
+		<div class="navbar" id="nav">
+
+			<ul>
+				<li>HOME</li>
+				<li>BLOG</li>
+				<li>VIDEO</li>
+				<li>CONTACT</li>
+				<li>ABOUT</li>
+			</ul>
+			
+		</div>
+
+
+	</div>
+
+	<div class="box"></div>
+
+	<script type="text/javascript">
+		var nav =document.getElementById('nav');
+
+		window.onscroll = function() {
+			if (window.pageYOffset >100 ) {
+				nav.style.background = "#007bff";
+				nav.style.boxShadow ="0px 4px 2px blue";
+			}
+			else{
+				nav.style.background = "transparent";
+				nav.style.boxShadow ="none";
+			}
+		}
+
+	</script>
+
+</body>
+</html>
