@@ -21,7 +21,7 @@
 
 
 </head>
-<body>
+<body onload="Menufixo()">
 
 
 
@@ -79,7 +79,7 @@
 
 
 	<div class="container-fluid">
-		<div id="header">
+		<div id="header" class="headerMenu">
 			<div class="logo"> aqui vai a foto do site </div>
 
 
@@ -253,27 +253,7 @@
 				
 
 				</div>
-				<script type="text/javascript">
-					var nav =document.getElementById('nav');
-
-					window.onscroll = function() {
-						if (window.pageYOffset >100 ) {
-							nav.style.background = "black";
-							nav.style.boxShadow ="0px 4px 2px gray";
-							nav.style.position = "absolute";
-							nav.style.position = "fixed";
-							nav.style.top = "0px";
-							nav.style.width="100%";
-						}
-						else{
-							nav.style.background = "white";
-							nav.style.boxShadow ="none";
-							nav.style.position = "static";
-							nav.style.width="auto";
-						}
-					}
-
-				</script>
+				
 
 			</div>
 		</div>
@@ -281,7 +261,8 @@
 
 	
 
-	<div class="container">
+	<div class="container-fluid">
+	<div class="CorpoSite">
 
 		<div>
 		Aqui começa o restante do site
@@ -403,6 +384,7 @@
 		<hr>
 		<br>
 
+	</div>
 	</div>
 	
 

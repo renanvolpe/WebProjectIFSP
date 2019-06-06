@@ -11,7 +11,10 @@ body{
         background-attachment:fixed;
 
 }
+.container-fluid{
+	padding: 0px;
 
+}
 
 #header{
 	background-color: gray;
@@ -21,15 +24,7 @@ body{
 
 }
 
-@media screen and (min-width: 1465px) {
-    #header{
-    	padding: 0px 300px;	
-    	
 
-    }
-
-
-    }
 
   
 
@@ -45,11 +40,6 @@ body{
 	height: 100px;
 }
 
- @media screen and (min-width: 1500px){
-
-
-    
-}
 
 
 .menu{
@@ -70,10 +60,41 @@ body{
 	margin: 20px;
 	margin-top:0px;
 
-	position: static;
+	
 }
-.headerMenu{
-	margin: 0px 100px;
+
+
+
+@media screen and (min-width: 1465px) {
+    #header{
+    	padding: 0px 300px;	
+    	
+
+    }
+
+
+}
+
+.CorpoSite{
+	margin: 0px 300px;
+}
+@media screen and (max-width: 1300px) {
+    .CorpoSite{
+    	margin: 0px 100px;	
+    	
+
+    }
+
+
+}
+@media screen and (max-width: 1000px) {
+    .CorpoSite{
+    	margin: 0px;	
+    	
+
+    }
+
+
 }
 
 
