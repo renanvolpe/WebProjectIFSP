@@ -23,6 +23,28 @@ function adicionarNoticia() {
     img.src = '../imagem/ImagemTeste.jpg'
 
 }
+function adicionarComentario() {
+
+   	
+
+	var img = new Image();
+    var div = document. getElementById('lista');
+    img.onload = function() {
+    div.appendChild(img);
+    };
+   
+
+    var noticia = document.getElementById("noticia").value;
+	
+	var lista = document.getElementById("lista").innerHTML;
+
+
+     lista =  '<div class="comentario"><p>'+lista+noticia+'</p> </div>' ;
+
+	document.getElementById("lista").innerHTML = lista;
+
+	 img.src = '../imagem/imagemPessoa.png';
+}
 
 function Menufixo(){
 	var nav =document.getElementById('nav');

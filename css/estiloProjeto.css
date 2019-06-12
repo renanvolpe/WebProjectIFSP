@@ -216,3 +216,38 @@ text-align: center;
 .subscribe-form input[type="submit"]:hover{
 	background: #e91e63;
 }
+
+
+/*indexProjetoNoticia*/
+
+.noticiaBase img{
+	width: 100%;
+	padding: 0 30px;
+}
+
+.TextNoticia{
+	margin: 20px;
+	background-color: white;
+	color: black;
+	border: solid 2px black;
+
+}
+.comentario{
+	
+	background-color: white;
+	padding: 10px
+	margin:20px;
+
+	width: 100%;
+	height: auto;
+}
+
+.comentario img{
+	
+	width: 100px;
+	height: 100px;
+}
+.comentario p{
+	float: right;
+
+}
