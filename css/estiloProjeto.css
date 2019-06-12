@@ -52,6 +52,7 @@ body{
 	margin: 60px;
 	margin-left: 0px;]
 	transition: .5s;
+	z-index: 1;
 
 }
 .dropdown-menu{
@@ -162,7 +163,7 @@ height: 50px;
 	
 #teste{
 	
-	
+	z-index: 1;
 	position: fixed;
 	right: 15px;
 	bottom: 10px;
