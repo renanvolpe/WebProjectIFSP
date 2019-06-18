@@ -4,79 +4,45 @@
 }
 
 body{
-		background-image:url('../imagem/imagemBackGround.jpg');
+		/*background-image:url('../imagem/imagemBackGround.jpg');
         background-position:center top;
         background-repeat:no-repeat;
         background-size:100%;
-        background-attachment:fixed;
+        background-attachment:fixed;*/
+        background-color: #1c2541;
 
 }
 
+ .Criadores{
+	background-color: #3a506b;
+	 border-radius: 2%;
 
-.container-fluid{
-	padding: 0px;
+}
+.Criadores img{
+	border-radius: 100%;
+	 width: 50px; 
+	 height: 50px;
+	 border: 3px solid black;
 
 }
 
-#header{
-	background-color: gray;
-	height: 200px;
-	border:1px solid black;
+.bg-color{
+	background-color: #0b132b;
+}
+.navbar{
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 	
-
 }
 
 
 
-  
-
-.logo{
-	border:1px solid black;
-	text-align: center;
-	margin: 50px;
-	margin-right:  0px;
-	padding-top: 30px;
-	float: left;
-	background-color: white;
-	width: 300px;
-	height: 100px;
-}
-
-
-
-.menu{
-	border:1px solid black;
-	float: right;
-	background-color: white;
-	text-align: center;
-	margin: 60px;
-	margin-left: 0px;]
+.logo:hover{
+	border-radius: 10%;
 	transition: .5s;
-	z-index: 1;
-
-}
-.dropdown-menu{
-	background-color: black;
-	width: 600px;
-	height: auto;
-
-	margin: 20px;
-	margin-top:0px;
-
-	
+	background-color: #5bc0be;
+	color: black;
 }
 
-
-
-@media screen and (min-width: 1465px) {
-    #header{
-    	padding: 0px 300px;	
-    	
-
-    }
-
-
-}
 
 .CorpoSite{
 	margin: 0px 300px;
@@ -100,7 +66,16 @@ body{
 
 }
 
+.jumbotron{
+	height: 600px;
+	
+	background-color: #0b132b;
+	color: white;
 
+}
+/*0b132b
+	3a506b
+*/
 
 .img_noticia{
 border:2px solid black;
@@ -120,14 +95,24 @@ border:2px solid black;
 	color: white;
 }
 
-
+.imgBox { /* now a container for the image */
+    display: inline-block; /* shrink wrap to image */
+    overflow: hidden; /* hide the excess */
+  }
+  .imgBox img {
+    display: block; /* no whitespace */
+    transition: .3s ease-in-out;
+  }
+  .imgBox:hover img {
+    transform: scale(1.1);
+  }
 
 
 .footer{
 
 	height: 300px;
 	width: 100%;
-	background-color: gray;
+	background-color: #0b132b;
 
 
 }
@@ -167,6 +152,12 @@ height: 50px;
 	position: fixed;
 	right: 15px;
 	bottom: 10px;
+	color: #0b132b;
+	background-color: #5bc0be;
+
+}
+
+.NewsLetter{
 
 }
 
