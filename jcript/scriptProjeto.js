@@ -33,13 +33,14 @@ function adicionarComentario() {
     div.appendChild(img);
     };
    
-
+    img.src = '../imagem/imagemPessoa.png';
+    
     var noticia = document.getElementById("noticia").value;
 	
 	var lista = document.getElementById("lista").innerHTML;
 
 
-     lista =  '<div class="comentario"><p>'+lista+noticia+'</p> </div>' ;
+     lista =  '<div class="comentario" style=""><p>'+lista+noticia+'</p> </div>' ;
 
 	document.getElementById("lista").innerHTML = lista;
 
