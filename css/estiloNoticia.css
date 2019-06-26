@@ -8,6 +8,9 @@ body{
         background-color: #1c2541;
 
 }
+.container{
+	padding: 0 100px;
+}
 
 .logo:hover{
 	border-radius: 10%;
@@ -56,12 +59,22 @@ body{
 
 	/*Texto da noticia*/
 .TextNoticia{
+	
 	margin: 20px;
-	background-color: white;
-	color: black;
-	border: solid 2px black;
+	font-size: 20px;
+
+	color: white;
+	
 
 }
+.TextNoticia p:hover{
+	transition: .5s;
+	
+	color: black;
+	background: rgba(255,255,255,0.6);
+	border-radius: 10px;
+
+} 
 
 
 /*comentarios da noticia*/
@@ -69,10 +82,11 @@ body{
 	
 	background-color: white;
 	padding: 10px
-	margin:20px;
-
+	margin-top:20px;
+	border-radius: 10px;
 	width: 100%;
 	height: auto;
+	border-bottom: 1px black solid;
 }
 
 .comentario img{
@@ -87,4 +101,111 @@ body{
 
 .entryTitle{
 	color: white;
+}
+
+
+subscribe-form{
+	position: relative;
+	margin-top: 40px;
+}
+
+.subscribe-form input[type="text"]{
+	color: white;
+	width: 100%;
+	height: 60px;
+	border-radius: 60px;
+	border: none;
+	outline: none;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 24px;
+	background:black;
+	
+}
+.subscribe-form input[type="text"]::placeholder{
+	color: white;/*testando*/
+}
+
+.subscribe-form input[type="submit"]{
+text-align: center;
+	background:#00bcd4; 
+	color: #fff;
+	width: 150px;
+	height: 60px;
+	border-radius: 60px;
+	border: none;
+	outline: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: 300;
+	cursor: pointer;
+	transition: .5s;
+	font-size: 20px;
+
+}
+
+.subscribe-login{
+	position: relative;
+	margin-top: 40px;
+}
+.subscribe-login a:hover{
+	background: #0b132b;
+}
+
+
+.subscribe-login input[type="text"]::placeholder{
+	color: white;/*testando*/
+}
+
+.subscribe-login input[type="submit"]{
+	text-align: center;
+	background:#00bcd4; 
+	color: #fff;
+	width: 150px;
+	height: 30px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	
+	border-radius: 10px;
+	font-weight: 300;
+	cursor: pointer;
+	transition: .5s;
+	font-size: 20px;
+
+}
+
+.subscribe-login input[type="text"]{
+	margin: 10px 0;
+	color: white;
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 24px;
+	background:black;
+	
+}
+
+.subscribe-login a{
+
+	padding: 10px;
+	text-align: center;
+	background:#00bcd4; 
+	color: #fff;
+	width: 150px;
+	height: 30px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	border-radius: 10px;
+	font-weight: 300;
+	cursor: pointer;
+	transition: .5s;
+	font-size: 20px;
 }

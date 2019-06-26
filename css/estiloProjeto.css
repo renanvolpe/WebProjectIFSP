@@ -81,8 +81,14 @@ body{
 border:2px solid black;
 }
 .textImg{
+	color: white;
 	position: relative;
-	bottom: 40px;
+	
+	background: rgba(32,178,170,0.5);
+
+	margin-bottom: 70px; 
+	bottom: 80px;
+	padding-bottom: 50px;
 }
 #buttonMenu{
 	
@@ -105,6 +111,10 @@ border:2px solid black;
   }
   .imgBox:hover img {
     transform: scale(1.1);
+  }
+  .inicioNoticias{
+  	color: white;
+  	text-align: center;
   }
 
 
@@ -156,6 +166,9 @@ height: 50px;
 	background-color: #5bc0be;
 
 }
+.modal-dialog .Login{
+	background-color: black;
+}
 
 .NewsLetter{
 
@@ -165,9 +178,7 @@ height: 50px;
 	position: relative;
 	margin-top: 40px;
 }
-.modal-content{
-	background: gray;
-}
+
 .subscribe-form input[type="text"]{
 	color: white;
 	width: 100%;
@@ -204,9 +215,72 @@ text-align: center;
 
 }
 
-.subscribe-form input[type="submit"]:hover{
-	background: #e91e63;
+.subscribe-login{
+	position: relative;
+	margin-top: 40px;
 }
+.subscribe-login a:hover{
+	background: #0b132b;
+}
+
+
+.subscribe-login input[type="text"]::placeholder{
+	color: white;/*testando*/
+}
+
+.subscribe-login input[type="submit"]{
+	text-align: center;
+	background:#00bcd4; 
+	color: #fff;
+	width: 150px;
+	height: 30px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	
+	border-radius: 10px;
+	font-weight: 300;
+	cursor: pointer;
+	transition: .5s;
+	font-size: 20px;
+
+}
+
+.subscribe-login input[type="text"]{
+	margin: 10px 0;
+	color: white;
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 24px;
+	background:black;
+	
+}
+
+.subscribe-login a{
+
+	padding: 10px;
+	text-align: center;
+	background:#00bcd4; 
+	color: #fff;
+	width: 150px;
+	height: 30px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	border-radius: 10px;
+	font-weight: 300;
+	cursor: pointer;
+	transition: .5s;
+	font-size: 20px;
+}
+
+
 
 
 /*indexProjetoNoticia*/
