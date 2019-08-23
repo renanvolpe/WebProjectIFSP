@@ -127,7 +127,7 @@ subscribe-form{
 }
 
 .subscribe-form input[type="submit"]{
-text-align: center;
+	text-align: center;
 	background:#00bcd4; 
 	color: #fff;
 	width: 150px;

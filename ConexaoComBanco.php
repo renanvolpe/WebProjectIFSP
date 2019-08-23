@@ -1,7 +1,7 @@
 
 <?php
 
-$dsn = "mysql:dbname=jogo;host=localhost";
+$dsn = "mysql:dbname=crudoo;host=localhost";
 $dbuser = "root";
 $dbpass="Renan123";
 
@@ -11,10 +11,11 @@ $dbpass="Renan123";
 try {
 	$pdo = new PDO($dsn , $dbuser, $dbpass);
 
-	echo "deu bom";
+	echo "<br>deu bom <br>";
 
 
 } catch (PDOException $e) {
 	echo "deu ruim: ".$e->getMessage();
 }
 ?>
+
